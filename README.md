@@ -212,7 +212,7 @@ Options:
   -c, --count             Amount of lessons in quarter. Typically 13 but can be more     [required]  [default: 13]
   -t, --title             Title of the quarterly in target language                      [required]
   -d, --description       Description of the quarterly in target language                [required]
-  -h, --human-date        Human readable date of quarterly. Ex. Fourth quarter of 2016   [required]
+  -h, --human-date        Human readable date of quarterly. Ex. Fourth quarter of 2016   [required]-
   -u, --teacher-comments  Include teacher comments                                       [default: false]
   -i, --inside-story      Inside story                                                   [default: true]
   -k, --lesson-cover      Create lesson cover placeholder images                         [default: false]

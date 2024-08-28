@@ -112,7 +112,8 @@ let firebase = require("firebase-admin"),
     crypto = require('crypto'),
     moment = require("moment");
 
-const bibleSearchBCV = require('@Adventech/bible-tools');
+// const bibleSearchBCV = require('@Adventech/bible-tools');
+const bibleSearchBCV = require('adventech-bible-tools/bible_tools_bcv');
 
 const { getCompilationQuarterValue, getInfoFromPath } = require('./deploy-helper');
 
@@ -131,7 +132,7 @@ let argv = require("optimist").usage("Compile & deploy script - DON'T USE IF YOU
 let branch = argv.b,
     compile_language = argv.l || "*",
     compile_quarter = argv.q || getCompilationQuarterValue(),
-    target_api = parseInt(argv.v) || 1;
+    target_api = 2;
 
 try {
   if (!argv.l && fs.pathExistsSync('./.github/outputs/all_changed_files.json')) {
@@ -176,7 +177,7 @@ try {
 }
 
 let API_HOST = "https://sabbath-school.adventech.io/api/",
-    API_VERSION = target_api === 1 ? "v1" : "v2",
+    API_VERSION =   "v2",
     PDF_HOST = "https://sabbath-school-pdf.adventech.io/",
     SOURCE_DIR = "src/",
     SOURCE_INFO_FILE = "info.yml",
@@ -771,7 +772,9 @@ let dayAPI = async function () {
       let result = null;
       try {
         result = bibleSearchBCV.search(language, bibleVersion, resultRead);
+        console.log({language, bibleVersion})
       } catch (err) {
+        console.error('🟥', err);
         result = null;
       }
       if (!result) continue;

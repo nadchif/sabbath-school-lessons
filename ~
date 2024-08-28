@@ -1,0 +1,57 @@
+Adding sn/2024-02/ 04 - 08
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Mon Apr 22 00:30:03 2024 +0800
+#
+# On branch stage
+# Changes to be committed:
+#	modified:   src/sn/2024-01/01/01.md
+#	modified:   src/sn/2024-01/01/02.md
+#	modified:   src/sn/2024-01/02/01.md
+#	modified:   src/sn/2024-01/03/06.md
+#	modified:   src/sn/2024-01/03/07.md
+#	modified:   src/sn/2024-01/05/05.md
+#	modified:   src/sn/2024-01/06/07.md
+#	new file:   src/sn/2024-01/07/chart.png
+#	modified:   src/sn/2024-02/05/01.md
+#	modified:   src/sn/2024-02/05/02.md
+#	modified:   src/sn/2024-02/05/03.md
+#	modified:   src/sn/2024-02/05/04.md
+#	modified:   src/sn/2024-02/05/05.md
+#	modified:   src/sn/2024-02/05/06.md
+#	modified:   src/sn/2024-02/05/07.md
+#	modified:   src/sn/2024-02/06/01.md
+#	modified:   src/sn/2024-02/06/02.md
+#	modified:   src/sn/2024-02/06/03.md
+#	modified:   src/sn/2024-02/06/04.md
+#	modified:   src/sn/2024-02/06/05.md
+#	modified:   src/sn/2024-02/06/06.md
+#	modified:   src/sn/2024-02/06/07.md
+#	modified:   src/sn/2024-02/07/01.md
+#	modified:   src/sn/2024-02/07/02.md
+#	modified:   src/sn/2024-02/07/03.md
+#	modified:   src/sn/2024-02/07/04.md
+#	modified:   src/sn/2024-02/07/05.md
+#	modified:   src/sn/2024-02/07/06.md
+#	modified:   src/sn/2024-02/07/07.md
+#	modified:   src/sn/2024-02/08/01.md
+#	modified:   src/sn/2024-02/08/02.md
+#	modified:   src/sn/2024-02/08/03.md
+#	modified:   src/sn/2024-02/08/04.md
+#	modified:   src/sn/2024-02/08/05.md
+#	modified:   src/sn/2024-02/08/06.md
+#	modified:   src/sn/2024-02/08/07.md
+#
+# Changes not staged for commit:
+#	modified:   README.md
+#	modified:   deploy.js
+#	modified:   package.json
+#
+# Untracked files:
+#	package-lock.json
+#	serve-api.js
+#	yarn-error.log
+#	yarn.lock
+#
